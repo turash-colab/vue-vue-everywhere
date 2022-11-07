@@ -4,7 +4,7 @@ let $ = (window.jQuery = require("jquery"));
 window.$ = $;
 
 window.axios = require("axios");
-window.axios.defaults.baseURL = "http://localhost:8080/api/v1";
+window.axios.defaults.baseURL = "http://swe-b3-dev.ebuilders.pro/api/v1";
 
 window.axios.interceptors.response.use(
   (response) => response,

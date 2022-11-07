@@ -16,7 +16,7 @@ const state = {
   },
   auth_role_name: "guest",
   auth_token: "",
-  server_url: "http://localhost:8080",
+  server_url: "http://swe-b3-dev.ebuilders.pro",
 };
 
 // getters
